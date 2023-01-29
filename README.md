@@ -5,6 +5,8 @@ Version 3 of a easy-to-deploy, low-cost PCBA to control LED lights over Wi-Fi. D
 
 [PDF Schematic](https://github.com/wszeto9/LED-Controller-V3/blob/main/PCB/LED_Controller_V3.pdf)
 
+![PCB Image, Isometric view](Documentation/PCB_ISO.jpg)
+
 **Features:**
 
 - All surface-mount components are basic components that can be placed with JLCPCB's SMT service
