@@ -1,9 +1,9 @@
 # LED-Controller-V3
 Version 3 of a easy-to-deploy, low-cost PCBA to control LED lights over Wi-Fi. Designed for use at MIT's East Campus REX event to light up large forts and structures at distances of over 28 ft.
 
-[Interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/wszeto9/LED-Controller-V3/main/PCB/bom/ibom.html)
+[Interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/wszeto9/LED-Controller-V3/main/Documentation/bom/ibom.html)
 
-[PDF Schematic](https://github.com/wszeto9/LED-Controller-V3/blob/main/PCB/LED_Controller_V3.pdf)
+[PDF Schematic](https://github.com/wszeto9/LED-Controller-V3/blob/main/Documentation/LED_Controller_V3.pdf)
 
 **Features:**
 
@@ -17,7 +17,7 @@ Version 3 of a easy-to-deploy, low-cost PCBA to control LED lights over Wi-Fi. D
 
 **High-Level Power Distribution Plan**
 
-![test](PCB/LightingLayout.svg)
+![test](Documentation/LightingLayout.svg)
 
 1. MIT Electric installs a Spider Box that is approximately 50 ft. away from the structure. The Spider Box has numerous 120V outlets that can be used to pull power for the lights.
 
@@ -48,6 +48,11 @@ If the board is fully functional, the following LEDs should be continuously lit:
 - 5V shall be lit if 5V is present
 
 - 3.3V shall be lit if the 3.3V LDO is populated and 3.3V is present
+
+**Optional to Populate**
+- The 5V Buck converter does not need to be populated if the distribution PCB supplies 5V. 
+
+- The 3.3V LDO does not need to be populated if the MCU has a reliable 3.3V LDO built-in. In this case, remove R4 and jump R3.
 
 **Pinouts and Outputs**
 
