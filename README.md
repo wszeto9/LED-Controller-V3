@@ -3,7 +3,7 @@ Version 3 of a easy-to-deploy, low-cost PCBA to control LED lights over Wi-Fi. D
 
 [Interactive BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/wszeto9/LED-Controller-V3/main/Documentation/bom/ibom.html)
 
-[PDF Schematic](https://github.com/wszeto9/LED-Controller-V3/blob/main/Documentation/LED_Controller_V3.pdf)
+[PDF Schematic](https://github.com/wszeto9/LED-Controller-V3/blob/main/PCB/LED_Controller_V3.pdf)
 
 **Features:**
 
